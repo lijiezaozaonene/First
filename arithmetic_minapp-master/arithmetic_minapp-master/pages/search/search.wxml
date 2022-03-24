@@ -1,0 +1,16 @@
+<!--pages/search/search.wxml-->
+<view class="page">
+  <view class="search">
+    <navigator hover-class="none" bindtap="mode1select" url="../jiafabiao/jiafabiao">
+      <image class="add" mode="widthFix" lazy-load src="/icon/jiafa.jpg"/>
+    </navigator>
+    <navigator hover-class="none" bindtap="mode2select" url="../chengfabiao/chengfabiao">
+      <image class="multi" mode="widthFix" lazy-load src="/icon/chengfa.jpg"/>
+    </navigator>
+    <navigator hover-class="none" bindtap="mode3select" url="../gongshi/gongshi">
+      <image class="more" mode="widthFix" lazy-load src="/icon/gongshi.jpg"/>
+    </navigator>
+ 
+  
+</view>
+</view>

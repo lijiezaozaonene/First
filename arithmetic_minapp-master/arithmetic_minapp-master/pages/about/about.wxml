@@ -1,0 +1,68 @@
+<!--pages/about/about.wxml-->
+<view class="about">
+  <view class="header">
+        <view class="avatar"><open-data type="userAvatarUrl"></open-data></view>
+        <view class="nickname"><open-data type="userNickName"></open-data></view>
+  </view>
+<!-- <view class="logo">
+  
+    logo
+  
+  <image class="logoimage" mode="widthFix" lazy-load src="https://i.loli.net/2020/12/15/Tq7oSpR6aUdycNt.png" />
+</view> -->
+<view class="abouttxt">
+  <!--
+    使用指南
+  -->
+  <navigator class="direct" bindtap="handledirect" hover-class="none" >
+    <text class="directdetail">{{content.lang.userCenter.instruction.title}}    </text>
+    <text class="iconfont icon-zhinan"></text>
+  </navigator>
+  <!--
+    分割线
+  -->
+  <view class="string1"></view>
+ 
+
+  <navigator class="award" bindtap="handlegitee" hover-class="none" >
+    <text class="awardtxt">{{content.lang.userCenter.support.title}}   </text>
+    <text class="iconfont icon-gitee-fill-round"></text>
+  </navigator>
+  <!-- <view class="string3"></view> -->
+<!--
+    联系我们
+  --> 
+  <!-- <button class="contact"  hover-class="none" open-type="contact" style="width:100%">
+    <text class="contacttxt">有问题，联系我们   </text>
+    <text class="iconfont icon-weixin"></text>
+  </button> -->
+    <!--
+    分割线
+  -->
+  <!-- <view class="string2"></view> -->
+  <!--
+    联系我们
+  --> 
+  <!-- <button class="share"  hover-class="none" open-type="share" style="width:100%">
+    <text class="sharetxt">分享给好友   </text>
+    <text class="iconfont icon-fenxiang"></text>
+  </button> -->
+      <!--
+    分割线
+  -->
+  <view class="string3"></view> 
+
+  <button class="contact"  hover-class="none"  bindtap="switchLanguage" style="width:100%">
+    <text class="contacttxt">{{content.lang.userCenter.changeLanguage}}   </text>
+    <text class="iconfont icon-weixin"></text>
+  </button>
+
+  <view class="string4"></view>
+  
+  <navigator class="aboutus" bindtap="handleabout" hover-class="none" >
+    <text class="aboutustxt">{{content.lang.userCenter.about.title}}    </text>
+    <text class="iconfont icon-ziyuan163"></text>
+  </navigator>
+
+</view>
+</view>

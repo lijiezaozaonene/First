@@ -1,0 +1,47 @@
+{
+  "pages":[
+   
+    "pages/index/index",
+    "pages/search/search",
+    "pages/about/about",
+    "pages/jichumode/jichumode",
+    "pages/qianghuamode/qianghuamode",
+    "pages/gradeanswer/gradeanswer",
+    "pages/calculate/calculate",
+    "pages/chengfabiao/chengfabiao",
+    "pages/jiafabiao/jiafabiao",
+    "pages/gongshi/gongshi"
+  ],
+  "window":{
+    
+    "navigationBarBackgroundColor": "#f5d499",
+    "navigationBarTitleText": "四则运算",
+    "navigationBarTextStyle":"black",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#f5d499",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "/icon/index.png",
+      "selectedIconPath": "/icon/index.png"
+    },
+    {
+    "pagePath": "pages/search/search",
+    "text": "小知识 ",
+    "iconPath": "/icon/search.png",
+    "selectedIconPath": "/icon/search.png"
+    },
+    {
+      "pagePath":"pages/about/about",
+      "text": "我的",
+      "iconPath": "/icon/about.png",
+      "selectedIconPath": "/icon/about.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,165 @@
+/* pages/about/about.wxss */
+.header{
+  background: #f5d499;
+  height: 150px;
+  display: flex;
+  flex-direction: box;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 200rpx;
+  margin-left:140rpx;
+  width: 450rpx;
+}
+.avatar{
+  width: 75px;
+  padding-left: 10px;
+}
+.nickname{
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+
+
+
+.logoimage{
+  margin-top: 200rpx;
+  margin-left:140rpx;
+  width: 450rpx;
+}
+
+
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f5d499;
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.abouttxt{
+  margin-left: 50rpx;
+  margin-top: 40rpx;
+}
+
+.string1{
+  display: flex;
+  height: 1rpx;
+  width: 180rpx;
+  margin-left: 140rpx;
+  margin-top: 15rpx;
+  background-color: #000;
+  border: 1rpx solid #000;
+}
+
+.string4{
+  display: flex;
+  height: 1rpx;
+  width: 230rpx;
+  margin-left: 140rpx;
+  margin-top: 5rpx;
+  background-color: #000;
+  border: 1rpx solid #000;
+}
+
+.contacttxt{
+  margin-left: 90rpx;
+  margin-top: 10rpx;
+  font-size: 45rpx;
+}
+
+
+
+.directdetail{
+  margin-left: 140rpx;
+  margin-top: 10rpx;
+  font-size: 45rpx;
+  font-weight: 1000rpx;
+}
+
+.sharetxt{
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  font-size: 45rpx;
+  
+}
+
+.aboutustxt{
+  margin-left: 140rpx;
+  margin-top: 40rpx;
+  font-size: 45rpx;
+  font-weight: 1000rpx;
+}
+  
+  button::after {
+    border: none;
+    
+    }
+    
+    button {
+    background-color: transparent;
+    
+    padding-left: 0;
+    
+    padding-right: 0;
+    
+    line-height:inherit;
+    
+    }
+    .share {
+      margin-left: 0rpx;
+      padding-left: 0rpx;
+    }
+    
+    button {
+    border-radius:0;
+    
+    }
+
+
+  .string2{
+    display: flex;
+    height: 1rpx;
+    width: 350rpx;
+    margin-left: 140rpx;
+    margin-top: 5rpx;
+    background-color: #000;
+    border: 1rpx solid #000;
+  }
+
+  .string3{
+    display: flex;
+    height: 1rpx;
+    width: 280rpx;
+    margin-left: 140rpx;
+    margin-top: 15rpx;
+    background-color: #000;
+    border: 1rpx solid #000;
+  }
+
+  .directdetail{
+  margin-left: 140rpx;
+  margin-top: 10rpx;
+  font-size: 45rpx;
+  font-weight: 1000rpx;
+}
+.awardtxt{
+    margin-left: 140rpx;
+    margin-top: 40rpx;
+    font-size: 45rpx;
+    font-weight: 1000rpx;
+  }
+
+  .aboutus{
+    margin-top: 20rpx;
+  }
+
+ .award{
+  margin-top: 20rpx;
+ }

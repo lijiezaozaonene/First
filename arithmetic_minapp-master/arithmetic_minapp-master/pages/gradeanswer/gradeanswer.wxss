@@ -1,0 +1,41 @@
+/* pages/onegradeanswer/onegradeanswer.wxss */
+.firstpng{
+  width: 600rpx;
+  margin-top: 150rpx;
+  border-radius: 20rpx;
+}
+
+.secondpng{
+  width: 600rpx;
+  margin-top: 60rpx;
+  border-radius: 20rpx;
+}
+
+.thirdpng{
+  width: 600rpx;
+  margin-top: 60rpx;
+  border-radius: 20rpx;
+}
+
+
+.fourthpng{
+  width: 600rpx;
+  margin-top: 60rpx;
+  border-radius: 20rpx;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page {
+  display: block;
+  background-color:  #f5d499;
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

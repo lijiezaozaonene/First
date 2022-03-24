@@ -1,0 +1,98 @@
+<!--
+答题界面，所有模式均修改此界面接口
+-->
+
+<view class="page">
+  <view class="pagewrapper">
+     <!-- 进度框 -->
+    <view class="process">
+      <!--
+    数字进度条
+  -->
+      <view class="numprocess">
+        <view class="numimage"></view>
+        <view class="numbar"><progress show-info percent="{{numpercent}}" color="#00BBFE" border-radius="20rpx" active
+            active-mode="forwards" font-size="18" backgroundColor="#FFFF" stroke-width="15" /></view>
+      </view>
+      <!--
+  时间进度条
+-->
+      <view class="timeprogress">
+        <view class="timeimage"></view>
+        <view class="timebar"><progress show-info percent="{{timepercent}}" color="#F58653" border-radius="20rpx" active
+            active-mode="forwards" font-size="18" backgroundColor="#FFF" stroke-width="15" /></view>
+      </view>
+    </view>
+    <!-- 题目框 -->
+    <view class="weui-cell_bd">
+      <view class="questionsbk">
+        <view class="timu">
+            <view class="equstyle">{{equation}}\t\t\t</view>
+            <input class="input" value='{{InputAnswerNumber}}'disabled='true' placeholder='{{holder}}'
+              maxlength='4'></input>
+        </view>
+        <view class="answerimage"></view>
+      </view>
+    </view>
+
+  <view style="text-align: center;color: grey;">{{content.lang.userCenter.writAnswer.title}}</view>
+
+    <!-- 键盘 -->
+    <view class='inputAnswer_digital_Box'>
+     <!--答案文本框-->
+   <input class="text" type="text" bindinput="inputAnswer_digital" confirm-type ="send"  value="{{InputAnswerNumber}}"/>
+    </view>
+    <view class='inputAnswer_digital_but'>
+        <view class='inputAnswer_yes' bindtap='inputAnswer_confirm'>{{content.lang.userCenter.next.title}}</view>
+        <view class='inputAnswer_but' bindtap='inputAnswer_end'>{{content.lang.userCenter.end.title}}</view>
+      </view>
+  </view>
+
+    <!-- 遮罩层b3提示答题结束 -->
+    <view class="b3" wx:if="{{ending}}">
+    <view class="endinfo" style="background-color:{{pageBackgroundColor}}">{{content.lang.userCenter.isend.title}}
+      <button class="res"  bindtap="result">{{content.lang.userCenter.check.title}}</button> 
+    </view>
+  </view>
+  <!-- 遮罩层b4显示得分结果 -->
+  <view class="b4" style="background-color:{{pageBackgroundColor}}" wx:if="{{lastresult}}">
+    <view class="resmarkwujin" wx:if="{{isWujin}}">
+      <view class="image5w"></view>
+      <view class="markw">答对题数 :</view>
+      <view class="marksw">{{correctnum}} </view>
+    </view>
+    <block wx:else>
+      
+    <view  class="resmark">
+      <view class="image5"></view>
+      <view class="mark">{{content.lang.userCenter.score.title}} :</view>
+      <view class="marks">{{correctnum}} / {{numname}}</view>
+    </view>
+    </block>
+    <view class="details">
+      <view class="costtime">
+        <view class="style1">{{content.lang.userCenter.time.title}}:\t{{time}}\t{{content.lang.userCenter.timeu.title}}</view>
+        <view wx:if="{{isWujin}}">
+          <view class="style2w">史上最高:\t {{totalnum}}</view>
+        </view>
+        <block wx:else>
+          <view class="style2">{{content.lang.userCenter.correct.title}}:\t {{correctrate}}\t%</view>
+        </block>
+      </view>
+      
+      <view class="style4">{{content.lang.userCenter.wrong.title}}</view>
+      <view class="wrongquestions">
+        <scroll-view scroll-y="true" style="height: 50vh">
+          <view class='wrongBlock' wx:for="{{wrongnow}}">
+            <view class='wrongEquation'>{{item.equation}}</view>
+            <view class='wrongAnswer'>{{content.lang.userCenter.answer.title}}：{{item.answer}}</view>
+            <view class='wrongInput'>{{content.lang.userCenter.yours.title}}：{{item.input}}</view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+    <!-- 铅笔边框 -->
+    <view class="image6"></view>
+  </view>
+
+</view>

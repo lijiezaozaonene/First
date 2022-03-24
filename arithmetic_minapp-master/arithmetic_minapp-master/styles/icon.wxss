@@ -1,0 +1,24 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_2266618_oqgmp82o1jq.eot?t=1608087729441'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_2266618_oqgmp82o1jq.eot?t=1608087729441#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAANIAAsAAAAAB1wAAAL7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCPIIfATYCJAMMCwgABCAFhG0HQBtvBhEVlM1kPw7shq8NJSF6liYUwIfEpZO44H8Hz6Pdfye5ebP5EqoFhRJ0BXXiJEAA2dZ0tbQaH4nqkhwa/LSd+dWdzzOEQyH1tAiJkPjEvdOm+HyW5bLmsI2fuiiOAwp0zElWIAEG4A1jF7TE9VCAN/Fyqeo16zfHYjC7KUD179OrCzYTwmBY1qJwKsYa1GI8WD1H3wAWBZ9XnyjOgsYjmH0b96zRncpvi96BTHYn094jIZ7OAbBJIEAuMKA6VrpaI1Eql+CtKoxWDg4GhZ4q6roEIk3jbPSPp0E5mLm+AGTCtIa3RQ4XCt4lXoAGQABwAAu0AqZCXejQuOMbpHzN6718xz143fzhmxaP37V69LZN991zs1vunXJ6XlaLVvvmnZzcy7f8N1s+eD2gRevlqc2XrwxvuTai5bw9k3eHeq/cO2WfT7c9DxeRLWP2Pc5LihNl1EMTE2MeWnxP4MqSfcvNzsgIKgnavi24qHpR0ujRf/8kFVUrxp300Fyy9hKUG1xjLqEDimvM7XwxeoM08psuZ/g3S9yYccA/KCbojrkDB/t/PvEJqpc/Mq/LkXrVfed1/IqmM4/KzegMgDtbfsoF3L3ySFr+iO8w5/7ulgWsvtnAAPDcXXMkCLqzDd0t2NN0K3jt4o4VRpOaZjGKyBEZWaEs56YEUMC9uJi+YK+Ga8I654LCEpZAU4Y4CJZUsqHnwoMPpXCwVII3OWpN9iHEUARlvIBsMwAUgQ5B489pCKhAX7Kh/+AR7g9HYAJvLQuZ00d6ffxqhAVjDeUVdDX0wrayH+ZvUbq2oLQ0YByRrI5CEsb57AZ7pCkG2JNMmQUIGjpYg82wbQcYaTBYcaiYx2UUiaoXhdXQeb5qCCowVAOlK6BVBj3h1Wd+4f1bSHJaBWogVHmPELF08yARijuQN6q+E+FWLrFOpBRjAhDIoAPWwIFaKzUAY3UrA1VYSA1IjJYiVE10VYXLa7r32wB4M4+VtBJl8L5gbTRa5WajHV705Ire8wAA') format('woff2'),
+  url('//at.alicdn.com/t/font_2266618_oqgmp82o1jq.woff?t=1608087729441') format('woff'),
+  url('//at.alicdn.com/t/font_2266618_oqgmp82o1jq.ttf?t=1608087729441') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_2266618_oqgmp82o1jq.svg?t=1608087729441#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-datijieshu:before {
+  content: "\e631";
+}
+
+.icon-xuexiquan:before {
+  content: "\e720";
+}

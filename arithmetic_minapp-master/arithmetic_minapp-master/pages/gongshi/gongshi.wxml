@@ -1,0 +1,11 @@
+<!--pages/gongshi/gongshi.wxml-->
+<view class="page">
+  <view class="one">
+    <navigator hover-class="none" bindtap="mode1select">
+    <image class="firstpng" mode="widthFix" src="/icon/公式表1.jpg"/>
+  </navigator>
+  <navigator hover-class="none" bindtap="mode1select">
+    <image class="firstpng" mode="widthFix" src="/icon/公式表2.jpg"/>
+  </navigator>
+  </view>
+</view>

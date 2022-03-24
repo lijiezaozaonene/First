@@ -1,0 +1,24 @@
+<!--pages/wujinmode/wujinmode.wxml-->
+<view class="wujin">
+  <text class="text1">
+    {{content.lang.userCenter.ready.title}}
+  </text>
+  <text class="text2">
+    
+  </text>
+  <text class="text3">
+    {{content.lang.userCenter.careful.title}}
+  </text>
+  <text class="text4">
+    
+  </text>
+  <navigator class="begin" hover-class="none" url="../calculate/calculate" >
+    <view class="tap">
+      {{content.lang.userCenter.strat.title}}
+  <text class="iconfont icon-dianji"></text>
+    </view>
+  </navigator>
+ 
+  <image class="image" mode="widthFix" src="/icon/ban.jpg"/>
+    
+</view>

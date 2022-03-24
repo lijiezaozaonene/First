@@ -1,0 +1,26 @@
+<view class="page">
+  
+  <view class="three">
+    <navigator hover-class="none" bindtap="mode8select" url="../calculate/calculate">
+      <image class="firstpng" mode="widthFix" lazy-load src="/icon/a.jpg"/> 
+    </navigator>
+    <navigator hover-class="none" bindtap="mode9select" url="../calculate/calculate">
+      <image class="secondpng" mode="widthFix" lazy-load src="/icon/b.jpg"/>
+    </navigator>
+  
+    <navigator hover-class="none" bindtap="mode10select" url="../calculate/calculate">
+      <image class="fourthpng" mode="widthFix" lazy-load src="/icon/c.jpg"/>
+      
+    </navigator>
+    <navigator hover-class="none" bindtap="mode11select" url="../calculate/calculate">
+      <image class="thirdpng" mode="widthFix" lazy-load src="/icon/d.jpg"/>
+    </navigator>
+  
+  </view>
+    
+  </view>  
+  
+  
+    
+  
+  

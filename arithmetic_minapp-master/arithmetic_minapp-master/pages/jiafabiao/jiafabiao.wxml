@@ -1,0 +1,9 @@
+<!--pages/jiafabiao/jiafabiao.wxml-->
+
+<view class="page">
+  <view class="one">
+    <navigator hover-class="none" bindtap="mode1select">
+    <image class="firstpng" mode="widthFix" src="/icon/加法表.png"/>
+  </navigator>
+  </view>
+</view>

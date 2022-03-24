@@ -1,0 +1,52 @@
+<!--index.wxml-->
+
+<view class="page">
+  <view class="user">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image class="avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <view class="words">
+        <!-- <text class="nickname"> -->
+        <text class="name">
+          {{content.lang.userCenter.hello.title}}  {{userInfo.nickName}} ~
+        </text>
+        <button class="signbutton" wx:if="{{!sign}}" bindtap="handlesign">
+          <text class="iconfont icon-xuexiquan">{{content.lang.userCenter.clickSign.title}}</text>
+        </button>
+        <block wx:else>
+          <text class="hellotxt">
+            <text class="iconfont icon-icon-test"> {{content.lang.userCenter.signUp.title}} <text class="total">{{totalday}}</text> {{content.lang.userCenter.day_comeon.title}}！</text>
+          </text>
+        </block>
+        <!-- </text> -->
+      </view>
+    </block>
+
+  </view>
+
+  <view class="main">
+    <view class="firstblock">
+      <navigator class="none" bindtap="play1select" hover-class="none" url="/pages/gradeanswer/gradeanswer">
+        <image class="firstleft" mode="widthFix"  lazy-load src="/icon/基础模式.jpg" />
+      </navigator>
+      <navigator class="none" bindtap="play2select" hover-class="none" url="/pages/qianghuamode/qianghuamode">
+        <image class="firstright" mode="widthFix" lazy-load src="/icon/强化模式.jpg" />
+      </navigator>
+
+    </view>  
+    <view class="more">
+      <swiper autoplay interval="1500" circular>
+        <swiper-item>
+          <image class="image1" mode="widthFix" src="/icon/1.jpg" />
+        </swiper-item>
+        <swiper-item>
+          <image class="image2" mode="widthFix" src="/icon/2.jpg" />
+        </swiper-item>
+        <swiper-item>
+          <image class="image3" mode="widthFix" src="/icon/3.jpg" />
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+
+</view>

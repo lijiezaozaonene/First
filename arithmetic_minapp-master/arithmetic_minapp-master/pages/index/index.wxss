@@ -1,0 +1,162 @@
+/**index.wxss**/
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 30rpx;
+}
+
+.page {
+  display: block;
+  background-color:#f5d499;
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.avatar {
+  width: 105rpx;
+  height: 105rpx;
+  margin-top: 50rpx;
+  margin-left: 80rpx;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 30rpx;
+  margin-top: 0rpx;
+  margin-left: 33rpx;
+  font-weight: 650;
+  color: #000;
+  width: 500rpx;
+  height: 52rpx;
+}
+
+.hello {
+  
+  margin-top: 500rpx;
+}
+
+.hellotxt{
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+  font-size: 35rpx;
+  color: #000;
+  font-weight: 700;
+  width: 400rpx;
+}
+
+.nosign{
+  margin-top: 40rpx;
+  font-size: 30rpx;
+  color: #000;
+  font-weight: 600;
+}
+
+.nickname{
+  
+  line-height: 25rpx;
+}
+.words{
+  margin-top: 20rpx;
+  margin-left: 15rpx;
+  width: 400rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstblock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.firstleft{
+  width: 600rpx;
+  margin-top: 10rpx;
+  border-radius: 20rpx;
+
+}
+
+.firstright{
+  width: 600rpx;
+  margin-top: 10rpx;
+  border-radius: 20rpx;
+
+}
+
+.second{
+  margin-top: 20rpx;
+  margin-left: 48rpx;
+  width: 700rpx;
+}
+
+swiper{
+  margin-top: 30rpx;
+  margin-left: 48rpx;
+  width: 630rpx;
+ 
+}
+
+.image1{
+  width: 600rpx;
+  border-radius: 20rpx;
+}
+
+.image2{
+  width:  600rpx;
+  border-radius: 20rpx;
+}
+
+.image3{
+  width:  600rpx;
+  border-radius: 20rpx;
+}
+
+.register_image{
+  width:  620rpx;
+  margin-left: 52rpx;
+}
+
+.firstleftn{
+  width: 320rpx;
+  height: 460rpx;
+  margin-left: 45rpx;
+  margin-top: 50rpx;
+}
+
+.firstrightn{
+  width: 320rpx;
+  height: 460rpx;
+  margin-left: 10rpx;
+  margin-top: 50rpx;
+}
+
+.signbutton{
+  width: 400rpx;
+  height: 80rpx;
+  margin-left: 0rpx;
+  padding-left: 0rpx;
+  margin-top: 20rpx;
+    line-height:inherit;
+    border: none;
+    background-color: transparent;
+    border-radius:0;
+    font-size: 20rpx;
+}
+
+.total{
+  color: red;
+}
+
+  
+ 

@@ -1,0 +1,9 @@
+<!--pages/chengfabiao/chengfabiao.wxml-->
+
+<view class="page">
+  <view class="one">
+    <navigator hover-class="none" bindtap="mode2select">
+    <image class="firstpng" mode="widthFix" src="/icon/乘法表.png"/>
+  </navigator>
+  </view>
+</view>

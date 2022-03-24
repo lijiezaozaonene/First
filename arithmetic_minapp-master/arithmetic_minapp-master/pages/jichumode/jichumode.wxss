@@ -1,0 +1,40 @@
+
+.firstpng{
+  width: 500rpx;
+  margin-top: 150rpx;
+}
+
+.secondpng{
+  width: 500rpx;
+  margin-top: 60rpx;
+}
+
+.thirdpng{
+  width: 500rpx;
+  margin-top: 60rpx;
+}
+
+
+
+
+.grade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page {
+  display: block;
+  background-color: #FFFFCC;
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.fourthpng{
+  width: 700rpx;
+  height: 700rpx;
+  margin-top: 70rpx;
+  padding-left: 4%;
+}
